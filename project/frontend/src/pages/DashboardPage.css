@@ -1,0 +1,33 @@
+.dashboard-container {
+  background: #23272f;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px #000a;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 32px 28px 24px 28px;
+  color: #f1f1f1;
+  text-align: center;
+}
+.dashboard-container h2 {
+  color: #ffb300;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+.dashboard-metric {
+  background: #181a1b;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  padding: 18px 0;
+  box-shadow: 0 2px 8px #0003;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffb300;
+  transition: box-shadow 0.2s;
+}
+.dashboard-metric span {
+  display: block;
+  color: #fff;
+  font-size: 2.2rem;
+  margin-top: 6px;
+  font-weight: bold;
+}

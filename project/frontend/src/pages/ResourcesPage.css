@@ -1,0 +1,134 @@
+.resources-container {
+  background: #23272f;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px #000a;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 32px 28px 24px 28px;
+  color: #f1f1f1;
+}
+.resources-container h2 {
+  color: #ffb300;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+.resources-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.resources-form input {
+  background: #181a1b;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #f1f1f1;
+  padding: 8px 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+  flex: 1 1 120px;
+  min-width: 0;
+}
+.resources-form input:focus {
+  border: 1.5px solid #ffb300;
+}
+.resources-form button {
+  background: linear-gradient(90deg, #ffb300 60%, #ff6f00 100%);
+  color: #181a1b;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  flex: 1 1 100px;
+  min-width: 120px;
+}
+.resources-form button:hover {
+  background: linear-gradient(90deg, #ff6f00 60%, #ffb300 100%);
+}
+@media (max-width: 600px) {
+  .resources-form {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .resources-form input,
+  .resources-form button {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.resources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.resources-list li {
+  background: #181a1b;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px #0003;
+  transition: box-shadow 0.2s;
+}
+.resources-list li:hover {
+  box-shadow: 0 4px 16px #ffb30033;
+}
+.resources-list .info {
+  display: flex;
+  flex-direction: column;
+}
+.resources-list .label {
+  font-size: 0.93rem;
+  color: #ffb300;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-bottom: -2px;
+}
+.resources-list .name {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.08rem;
+}
+.resources-list .type {
+  font-size: 0.98rem;
+  color: #ffb300;
+}
+.resources-list .type-value {
+  color: #fff;
+  font-size: 0.98rem;
+  font-weight: 500;
+}
+.resources-list .desc {
+  font-size: 0.95rem;
+  color: #fff;
+}
+.resources-list button {
+  background: #ff5252;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 14px;
+  font-size: 0.98rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.2s;
+}
+.resources-list button:hover {
+  background: #c62828;
+}
+.resources-container .error {
+  color: #ff5252;
+  background: #2d1a1a;
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-top: 4px;
+  font-size: 0.95rem;
+  text-align: center;
+}

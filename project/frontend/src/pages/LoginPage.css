@@ -1,0 +1,74 @@
+body {
+  background: #181a1b;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background: #23272f;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px #000a;
+  max-width: 350px;
+  margin: 80px auto;
+  padding: 32px 28px 24px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container h2 {
+  margin-bottom: 24px;
+  color: #ffb300;
+  letter-spacing: 1px;
+}
+
+.login-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container input {
+  background: #181a1b;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #f1f1f1;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.login-container input:focus {
+  border: 1.5px solid #ffb300;
+}
+
+.login-container button {
+  background: linear-gradient(90deg, #ffb300 60%, #ff6f00 100%);
+  color: #181a1b;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: background 0.2s;
+}
+
+.login-container button:hover {
+  background: linear-gradient(90deg, #ff6f00 60%, #ffb300 100%);
+}
+
+.login-container .error {
+  color: #ff5252;
+  background: #2d1a1a;
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-top: 4px;
+  font-size: 0.95rem;
+  text-align: center;
+}
