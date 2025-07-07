@@ -1,6 +1,6 @@
 # 🛡️ Sistema de Gerenciamento de Segurança – Indústrias Wayne
 
-Este sistema realiza controle de acesso e gerenciamento de recursos para ambientes corporativos. Ele é dividido em backend (Python/Flask) e frontend (React).
+Este sistema realiza controle de acesso e gerenciamento de recursos para ambientes corporativos
 
 ---
 
